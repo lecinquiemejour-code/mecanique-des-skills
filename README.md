@@ -5,6 +5,13 @@ schémas, comment fonctionnent les *skills* de Claude et sa *fenêtre de context
 — structure d'un skill, déclenchement, chaîne de tokens, architecture du
 contexte, ordres de grandeur, débordement, et hygiène du contexte.
 
+## ⬇️ Télécharger le skill
+
+1. Sur la page d'accueil de ce dépôt GitHub, cliquez sur le bouton vert **`<> Code`**.
+2. Cliquez sur **`Download ZIP`**.
+
+*(Note : Le fichier `.zip` ainsi téléchargé sert directement de package pour le skill. N'extrayez pas son contenu).*
+
 ## Contenu du dépôt
 
 - `SKILL.md` — le tuteur (rôle, méthode, message d'accueil, carte des modules).
@@ -14,12 +21,14 @@ contexte, ordres de grandeur, débordement, et hygiène du contexte.
 
 ## Installation
 
-### Dans l'app Claude (claude.ai)
-1. **Customize → Compétences → « + »**.
-2. Soit **« Ajouter depuis GitHub »** en pointant ce dépôt, soit télécharger ce
-   dépôt en ZIP et le téléverser. (Le fichier `.skill` de la page *Releases*
-   peut aussi être téléversé directement.)
-3. Vérifier que le skill est **activé** (commutateur sur ON).
+### Dans l'app Claude (claude.ai) et Claude Desktop
+1. Téléchargez le fichier ZIP du dépôt (voir **Télécharger le skill** ci-dessus).
+2. Dans Claude, allez dans **Customize** (Personnaliser) → **Skills** (Compétences) → **« + »** → **« + Create skill »** (Créer une compétence) → **« Upload a skill »** (Importer une compétence).
+3. Téléversez le fichier `.zip` téléchargé.
+4. Activez le skill (toggle sur **ON**).
+5. **Claude Desktop :** Si vous utilisez l'application de bureau, il peut être nécessaire de **quitter complètement et relancer Claude Desktop** pour que le nouveau skill soit visible et actif.
+
+> Prérequis : l'**exécution de code** doit être activée dans vos préférences (Settings → Capabilities).
 
 ### Dans Claude Code
 ```bash
