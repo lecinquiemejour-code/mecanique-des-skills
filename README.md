@@ -49,4 +49,4 @@ et des SVG — aucun script, aucune dépendance.
 
 ## Auteur & licence
 
-Créé par Jean Noël Lefebvre (L5J). Distribué sous licence **GNU GPL v3.0** (voir `LICENSE`).
+Créé par [Jean Noël Lefebvre (L5J)](https://cv-jean-noel.netlify.app/). Distribué sous licence **GNU GPL v3.0** (voir `LICENSE`).
